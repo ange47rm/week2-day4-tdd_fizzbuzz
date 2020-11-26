@@ -2,5 +2,10 @@ def fizzbuzz(number):
     
     if number == 3:
         return "Fizz"
-    else:
+    
+    elif number == 5:
         return "Buzz"
+ 
+    else:
+        return "FizzBuzz"
+        
